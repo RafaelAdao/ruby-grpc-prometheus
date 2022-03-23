@@ -14,4 +14,7 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
   s.files        = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
   s.require_path = 'lib'
+
+  s.add_dependency "prometheus-client", "~> 3.0.0"
+  s.add_dependency "grpc", "~> 1.45.0"
 end
