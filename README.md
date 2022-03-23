@@ -1,1 +1,1 @@
-# ruby-grpc-prometheus
+# Ruby gRPC Interceptor for Prometheus monitoring
