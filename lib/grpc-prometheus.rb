@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
+require_relative "grpc-prometheus/version"
+
 module GRPCPrometheus
-  def self.hi
-    "Hello world!"
-  end
+  class Error < StandardError; end
+  # Your code goes here...
 end
