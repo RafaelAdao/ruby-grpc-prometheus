@@ -30,4 +30,5 @@ Gem::Specification.new do |s|
   s.add_dependency "prometheus-client", "~> 3.0.0"
 
   s.add_development_dependency "grpc-tools"
+  s.add_development_dependency "pry", '~> 0.13.1'
 end

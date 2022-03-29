@@ -9,6 +9,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
+    coderay (1.1.3)
     google-protobuf (3.19.4-x86_64-linux)
     googleapis-common-protos-types (1.3.0)
       google-protobuf (~> 3.14)
@@ -16,11 +17,15 @@ GEM
       google-protobuf (~> 3.19)
       googleapis-common-protos-types (~> 1.0)
     grpc-tools (1.45.0)
+    method_source (1.0.0)
     minitest (5.15.0)
     parallel (1.22.1)
     parser (3.1.1.0)
       ast (~> 2.4.1)
     prometheus-client (3.0.0)
+    pry (0.13.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
     rainbow (3.1.1)
     rake (13.0.6)
     regexp_parser (2.2.1)
@@ -46,6 +51,7 @@ DEPENDENCIES
   grpc-prometheus!
   grpc-tools
   minitest (~> 5.0)
+  pry (~> 0.13.1)
   rake (~> 13.0)
   rubocop (~> 0.80)
 
